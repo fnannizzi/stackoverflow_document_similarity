@@ -1,0 +1,33 @@
+<begin_duplicate_set>
+<begin_title>
+Java: iterate through HashMap
+<end_title>
+ <begin_tags>
+java,hashmap
+<end_tags>
+<begin_body>
+<blockquote>
+  <p><strong>Possible Duplicate:</strong><br>
+  <a href="http://stackoverflow.com/questions/46898/how-do-i-iterate-over-each-entry-in-a-collection-map">How do I iterate over each Entry in a Collection Map?</a>  </p>
+</blockquote>
+
+
+
+<p>What is the best way to iterate through a <code>HashMap</code>?</p>
+
+<end_body>
+
+<begin_title>
+How do I iterate over each Entry in a Map?
+<end_title>
+ <begin_tags>
+java,map,iteration
+<end_tags>
+<begin_body>
+<p>If I have an object implementing the <code>Map</code> interface in Java and I wish to iterate over every pair contained within it, what is the most efficient way of going through the map?  </p>
+
+<p>Will the ordering of elements depend on the specific map implementation that I have for the interface?</p>
+
+<end_body>
+
+<end_duplicate_set>
