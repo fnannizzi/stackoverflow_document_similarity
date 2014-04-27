@@ -31,3 +31,591 @@ java,map,iteration
 <end_body>
 
 <end_duplicate_set>
+<begin_duplicate_set>
+<begin_title>
+Difference between == and === in JavaScript
+<end_title>
+ <begin_tags>
+javascript,comparison-operators,equality-operator,identity-operator
+<end_tags>
+<begin_body>
+<blockquote>
+  <p><strong>Possible Duplicate:</strong><br>
+  <a href="http://stackoverflow.com/questions/359494/javascript-vs-does-it-matter-which-equal-operator-i-use">Javascript === vs == : Does it matter which &ldquo;equal&rdquo; operator I use?</a>   </p>
+</blockquote>
+
+
+
+<p>What is the difference between <code>==</code> and <code>===</code> in JavaScript?  I have also seen <code>!=</code> and <code>!==</code> operators.  Are there more such operators?</p>
+
+<end_body>
+
+<begin_title>
+Does it matter which equals operator (== vs ===) I use in JavaScript comparisons?
+<end_title>
+ <begin_tags>
+javascript,operators,equality,equality-operator,identity-operator
+<end_tags>
+<begin_body>
+<p>I'm using JSLint to go through some horrific JavaScript at work and it's returning a huge number of suggestions to replace <code>==</code> (two equals signs) with <code>===</code> (three equals signs) when doing things like comparing <code>idSele_UNVEHtype.value.length == 0</code> inside of an if statement.</p>
+
+<p>Is there a performance benefit to replacing <code>==</code> with <code>===</code>? </p>
+
+<p>Any performance improvement would probably be welcomed as there are hundreds (if not thousands) of these comparison operators being used throughout the file.</p>
+
+<p>Would I be correct in assuming that if no type conversion takes place, there would be a small (probably extremely small) performance gain over <code>==</code>?</p>
+
+<end_body>
+
+<end_duplicate_set>
+<begin_duplicate_set>
+<begin_title>
+How to flush output of Python print?
+<end_title>
+ <begin_tags>
+python,printing,flush
+<end_tags>
+<begin_body>
+<blockquote>
+  <p><strong>Possible Duplicate:</strong><br>
+  <a href="http://stackoverflow.com/questions/107705/python-output-buffering">Python output buffering</a>  </p>
+</blockquote>
+
+
+
+<p>I would like to force Python's print function to output to the screen.</p>
+
+<end_body>
+
+<begin_title>
+Python output buffering
+<end_title>
+ <begin_tags>
+python,stdout,buffered
+<end_tags>
+<begin_body>
+<p>Is output buffering enabled by default in Python's interpreter for <code>sys.stdout</code> ? </p>
+
+<p>If the answer is positive, what are all the ways to disable it ?</p>
+
+<p>Suggestions so far:</p>
+
+<ol>
+<li>Use the <code>-u</code> command line switch</li>
+<li>Wrap <code>sys.stdout</code> in an object that flushes after every write</li>
+<li>Set <code>PYTHONUNBUFFERED</code> env var</li>
+<li><code>sys.stdout = os.fdopen(sys.stdout.fileno(), 'w', 0)</code></li>
+</ol>
+
+<p>Is there any other way to set some global flag in <code>sys / sys.stdout</code> programmatically during execution ?</p>
+
+<end_body>
+
+<end_duplicate_set>
+<begin_duplicate_set>
+<begin_title>
+Git: clone a specific branch
+<end_title>
+ <begin_tags>
+git,git-branch,git-clone
+<end_tags>
+<begin_body>
+<blockquote>
+  <p><strong>Possible Duplicate:</strong><br>
+  <a href="http://stackoverflow.com/questions/1778088/how-to-clone-a-single-branch-in-git">How to clone a single branch in git?</a>  </p>
+</blockquote>
+
+
+
+<p>Git clone will behave copying remote current working branch into local. Is there any way to clone a specific branch by myself without switching branches on remote repo?</p>
+
+<end_body>
+
+<begin_title>
+How to clone a single branch in git?
+<end_title>
+ <begin_tags>
+git,branch,git-clone
+<end_tags>
+<begin_body>
+<p>I have a local git repository called 'skeleton' that I use for storing project skeletons. It has a few branches, for different kinds of projects:</p>
+
+<pre><code>casey@agave [~/Projects/skeleton] git branch
+* master
+  rails
+  c
+  c++
+</code></pre>
+
+<p>If I want to check out the master branch for a new project, I can do</p>
+
+<pre><code>casey@agave [~/Projects] git clone skeleton new
+Initialized empty Git repository in /Users/casey/Projects/new/.git/
+</code></pre>
+
+<p>and everything is how I want it. Specifically, the new master branch points to skeleton master branch, and I can push and pull to move around changes to the basic project setup.</p>
+
+<p>What doesn't work, however, is if I want to clone another branch. I can't get it so that I only pull the branch I want, for instance the rails branch, and then the new repo has a 'master' branch that pushes to and pulls from the skeleton repo's 'rails' branch, by default.</p>
+
+<p>Is there a good way to go about doing this? Or, maybe this isn't the way that git wants me to structure things, and I'm certainly open to that. Perhaps I should have multiple repos, with the rails skeleton repo tracking the master skeleton repo? And any individual project cloning the rails skeleton repo.</p>
+
+<p>Any thoughts and suggestions are appreciated!</p>
+
+<end_body>
+
+<end_duplicate_set>
+<begin_duplicate_set>
+<begin_title>
+What is a REST API
+<end_title>
+ <begin_tags>
+api,rest
+<end_tags>
+<begin_body>
+<blockquote>
+  <p><strong>Possible Duplicate:</strong><br>
+  <a href="http://stackoverflow.com/questions/671118/what-exactly-is-restful-programming">What exactly is RESTful programming?</a>  </p>
+</blockquote>
+
+
+
+<p>What is a REST API?</p>
+
+<end_body>
+
+<begin_title>
+What exactly is RESTful programming?
+<end_title>
+ <begin_tags>
+http,rest,definition
+<end_tags>
+<begin_body>
+<p>What exactly is RESTful programming?</p>
+
+<p>Don't give me links to wikipedia please, I'm hoping for a straight-forward answer, not some BUZZ-word-ful answer.</p>
+
+<p>Bonus question: Should I feel stupid because I never heard about it outside SO?</p>
+
+<end_body>
+
+<end_duplicate_set>
+<begin_duplicate_set>
+<begin_title>
+How to check a not-defined variable in JavaScript
+<end_title>
+ <begin_tags>
+javascript,variables,undefined
+<end_tags>
+<begin_body>
+<blockquote>
+  <p><strong>Possible Duplicate:</strong><br>
+  <a href="http://stackoverflow.com/questions/27509/detecting-an-undefined-object-property-in-javascript">Detecting an undefined object property in JavaScript</a>  </p>
+</blockquote>
+
+
+
+<p>I wanted to check whether the variable is defined or not. For example, the following throws a not-defined error  </p>
+
+<pre><code>alert( x );
+</code></pre>
+
+<p>How can I catch this error?</p>
+
+<end_body>
+
+<begin_title>
+Detecting an undefined object property in JavaScript
+<end_title>
+ <begin_tags>
+javascript,undefined
+<end_tags>
+<begin_body>
+<p>What's the best way of checking if an object property in JavaScript is undefined?</p>
+
+<p>Sorry, I initially said variable rather than object property. I believe the same <code>== undefined</code> approach doesn't work there.</p>
+
+<end_body>
+
+<end_duplicate_set>
+<begin_duplicate_set>
+<begin_title>
+Set a default parameter value for a JavaScript function
+<end_title>
+ <begin_tags>
+javascript,function,arguments,default
+<end_tags>
+<begin_body>
+<blockquote>
+  <p><strong>Possible Duplicate:</strong><br>
+  <a href="http://stackoverflow.com/questions/148901/is-there-a-better-way-to-do-optional-function-parameters-in-javascript">Is there a better way to do optional function parameters in Javascript?</a>  </p>
+</blockquote>
+
+<p>I would like a JavaScript function to have optional arguments which I set a default on, which gets used if the value isn't defined.  In ruby you can do it like this:</p>
+
+<pre><code>def read_file(file, delete_after = false)
+  # code
+end
+</code></pre>
+
+<p>Does this work in JavaScript?</p>
+
+<pre><code>function read_file(file, delete_after = false) {
+  // Code
+}
+</code></pre>
+
+<end_body>
+
+<begin_title>
+Is there a better way to do optional function parameters in Javascript?
+<end_title>
+ <begin_tags>
+javascript,function,arguments
+<end_tags>
+<begin_body>
+<p>I've always handled optional parameters in Javascript like this:</p>
+
+<pre><code>function myFunc(requiredArg, optionalArg){
+  optionalArg = optionalArg || 'defaultValue';
+
+  //do stuff
+
+}
+</code></pre>
+
+<p>Is there a better way to do it?</p>
+
+<p>Are there any cases where using <code>||</code> like that is going to fail?</p>
+
+<end_body>
+
+<end_duplicate_set>
+<begin_duplicate_set>
+<begin_title>
+How to merge values into an String format
+<end_title>
+ <begin_tags>
+javascript
+<end_tags>
+<begin_body>
+<blockquote>
+  <p><strong>Possible Duplicate:</strong><br>
+  <a href="http://stackoverflow.com/questions/5568998/merging-values-into-an-array">Merging Values into an Array</a>  </p>
+</blockquote>
+
+<end_body>
+
+<begin_title>
+Merging Values into an Array
+<end_title>
+ <begin_tags>
+javascript
+<end_tags>
+<begin_body>
+<p>I have a situation where i have to manually merge a label with value and then store in array. For instance <code>aaa 10 , bbb 20, ccc 30</code> </p>
+
+<p>The values are coming from text field and finally i have to bring this in such format... with comma seperated and label's are hardcoded.</p>
+
+<p>How to create an Array or a String like this <code>aaa 10 , bbb 20, ccc 30</code> with Key:Value pair</p>
+
+<end_body>
+
+<end_duplicate_set>
+<begin_duplicate_set>
+<begin_title>
+Best way to find an item in a JavaScript array?
+<end_title>
+ <begin_tags>
+javascript,arrays
+<end_tags>
+<begin_body>
+<blockquote>
+  <p><strong>Possible Duplicate:</strong><br>
+  <a href="http://stackoverflow.com/questions/237104/array-containsobj-in-javascript">array.contains(obj) in JavaScript</a>  </p>
+</blockquote>
+
+
+
+<p>What is the best way to find if an object is in an array?</p>
+
+<p>This is the best way I know:</p>
+
+<pre><code>function include(arr, obj) {
+    for(var i=0; i&lt;arr.length; i++) {
+        if (arr[i] == obj) return true;
+    }
+}
+
+include([1,2,3,4], 3); // true
+include([1,2,3,4], 6); // undefined
+</code></pre>
+
+<end_body>
+
+<begin_title>
+array.contains(obj) in JavaScript
+<end_title>
+ <begin_tags>
+javascript,arrays,web-browser
+<end_tags>
+<begin_body>
+<p>What is the most concise and efficient way to find out if a JavaScript array contains an obj?</p>
+
+<p>This is the only way I know to do it:</p>
+
+<pre><code>contains(a, obj) {
+    for (var i = 0; i &lt; a.length; i++) {
+        if (a[i] === obj) {
+            return true;
+        }
+    }
+    return false;
+}
+</code></pre>
+
+<p>Is there a better and more concise way to accomplish this?</p>
+
+<p>This is very closely related to Stack Overflow question <em><a href="http://stackoverflow.com/questions/143847/best-way-to-find-an-item-in-a-javascript-array">Best way to find an item in a JavaScript Array?</a></em> which addresses finding objects in an array using <code>indexOf</code>.</p>
+
+<end_body>
+
+<end_duplicate_set>
+<begin_duplicate_set>
+<begin_title>
+Howto Uninstall RVM
+<end_title>
+ <begin_tags>
+ruby,ubuntu-9.10,rvm
+<end_tags>
+<begin_body>
+<blockquote>
+  <p><strong>Possible Duplicate:</strong><br>
+  <a href="http://stackoverflow.com/questions/3558656/how-to-remove-rvm-ruby-version-manager-from-my-system">How to remove rvm (ruby version manager) from my system?</a>  </p>
+</blockquote>
+
+
+
+<p>How can I uninstall (or reinstall) RVM on Ubuntu 9.10? I messed up my current installation.</p>
+
+<end_body>
+
+<begin_title>
+How can I remove RVM (Ruby Version Manager) from my system?
+<end_title>
+ <begin_tags>
+ruby,rubygems,rvm
+<end_tags>
+<begin_body>
+<p>How can I remove RVM (Ruby Version Manager) from my system?</p>
+
+<end_body>
+
+<end_duplicate_set>
+<begin_duplicate_set>
+<begin_title>
+How do I commit all deleted files in Git?
+<end_title>
+ <begin_tags>
+git,git-add
+<end_tags>
+<begin_body>
+<blockquote>
+  <p><strong>Possible Duplicate:</strong><br>
+  <a href="http://stackoverflow.com/questions/492558/removing-multiple-files-from-a-git-repo-that-have-already-been-deleted-from-disk">Removing multiple files from a Git repo that have already been deleted from disk</a>  </p>
+</blockquote>
+
+
+
+<p>If I delete some files from the disk they come up as deleted like so in the Git repo:</p>
+
+<pre><code>C:\git\bc&gt;git status
+# On branch tracking2
+# Changed but not updated:
+#   (use "git add/rm &lt;file&gt;..." to update what will be committed)
+#   (use "git checkout -- &lt;file&gt;..." to discard changes in working directory)
+#
+#       deleted:    test.txt
+#
+</code></pre>
+
+<p>Is there a way to do a single command "just delete these files from the repository"?<br>
+Similar to <code>git add .</code> which would add all new and modified files to the stage.</p>
+
+<p>I use Visual Studio and Windows explorer to work with my source tree and at some point I just delete a whole bunch of files. I then find it a pain to call <code>git rm</code> as the files are no longer around and there is no command line intellisense to help me type it in. </p>
+
+<p>I just want a command that deletes all files from git that are also deleted from the disk.</p>
+
+<end_body>
+
+<begin_title>
+Removing multiple files from a Git repo that have already been deleted from disk
+<end_title>
+ <begin_tags>
+git,git-commit,git-rm
+<end_tags>
+<begin_body>
+<p>I have a Git repo that I have deleted four files from using <code>rm</code> (<strong>not</strong> <code>git rm</code>), and my Git status looks like this:</p>
+
+<pre><code>#    deleted:    file1.txt
+#    deleted:    file2.txt
+#    deleted:    file3.txt
+#    deleted:    file4.txt
+</code></pre>
+
+<p>How do I remove these files from Git without having to manually go through and add each file like this:</p>
+
+<pre><code>git rm file1 file2 file3 file4
+</code></pre>
+
+<p>Ideally, I'm looking for something that works in the same way that <code>git add .</code> does, if that's possible.</p>
+
+<end_body>
+
+<end_duplicate_set>
+<begin_duplicate_set>
+<begin_title>
+WPF vs Silverlight
+<end_title>
+ <begin_tags>
+wpf,silverlight
+<end_tags>
+<begin_body>
+<blockquote>
+  <p><strong>Possible Duplicate:</strong><br>
+  <a href="http://stackoverflow.com/questions/629927/what-is-the-difference-between-wpf-and-silverlight-application">What is the difference between WPF and Silverlight application?</a>  </p>
+</blockquote>
+
+
+
+<p>What are the exact differences between WPF and Silverlight? </p>
+
+<end_body>
+
+<begin_title>
+What is the difference between WPF and Silverlight application?
+<end_title>
+ <begin_tags>
+c#,wpf,silverlight
+<end_tags>
+<begin_body>
+<p>What is the difference between WPF and Silverlight application? Are they the same?</p>
+
+<end_body>
+
+<end_duplicate_set>
+<begin_duplicate_set>
+<begin_title>
+How to customize the UIPickerView or anyother control in iPhone?
+<end_title>
+ <begin_tags>
+iphone
+<end_tags>
+<begin_body>
+<blockquote>
+  <p><strong>Possible Duplicate:</strong><br>
+  <a href="http://stackoverflow.com/questions/901545/uipickerview-customisation">UIPickerview customisation</a>  </p>
+</blockquote>
+
+
+
+<p>Please let me know the steps.</p>
+
+<end_body>
+
+<begin_title>
+UIPickerview customisation
+<end_title>
+ <begin_tags>
+iphone,objective-c,uipickerview
+<end_tags>
+<begin_body>
+<p>I would like to do some customization of the UIPickerView.</p>
+
+<p>End Goal: have a picker view rotating a few icon sized images.</p>
+
+<p>firstly i would like to change the black/grey boarder surrounding the spindle to a transparent colour. i.e. [UIColor clearColor];</p>
+
+<p>Then shrink the picker view down so it is relatively small, (probably around 40 x 40 pixels)  Experimenting with this is IB did not make it seem easy.</p>
+
+<p>Finally change the view returned to the picker for each section.  This i think is easy with</p>
+
+<pre><code>pickerView:viewForRow:forComponent:reusingView:
+</code></pre>
+
+<p>The rest, not sure if it is possible or if i am going to have to delve into some of the core animation/graphics (or find a different way to do what i want).</p>
+
+<end_body>
+
+<end_duplicate_set>
+<begin_duplicate_set>
+<begin_title>
+How Sort Datagridview?
+<end_title>
+ <begin_tags>
+c#
+<end_tags>
+<begin_body>
+<blockquote>
+  <p><strong>Possible Duplicate:</strong><br>
+  <a href="http://stackoverflow.com/questions/1005539/datagridview-sort-programmitically">DataGridView Sort Programmitically</a>  </p>
+</blockquote>
+
+
+
+<p>How Sort Datagridview ?</p>
+
+<end_body>
+
+<begin_title>
+DataGridView Sort Programmitically
+<end_title>
+ <begin_tags>
+datagridview
+<end_tags>
+<begin_body>
+<p>I have created my custom DataGridViewNumericTextBoxColumn derived from DataGridViewTextBoxColumn class.</p>
+
+<p>When I call </p>
+
+<p>this.HeaderDataGridView.Sort = Sort.Programmiticaly;
+this.HeaderDataGridView.Sort(this.HeaderDataGridView.Columns[Utility.HEAD_X], ListSortDirection.Ascending);</p>
+
+<p>It is working fine for integer type values but when the data contain double values it don't sort.</p>
+
+<p>Thanks,
+Ashish</p>
+
+<end_body>
+
+<end_duplicate_set>
+<begin_duplicate_set>
+<begin_title>
+What does "Class POCO"?
+<end_title>
+ <begin_tags>
+generics
+<end_tags>
+<begin_body>
+<blockquote>
+  <p><strong>Possible Duplicate:</strong><br>
+  <a href="http://stackoverflow.com/questions/250001/define-poco">Define &#39;poco&#39;?</a>  </p>
+</blockquote>
+
+
+
+<p>What does "Class POCO"?</p>
+
+<end_body>
+
+<begin_title>
+'POCO' definition
+<end_title>
+ <begin_tags>
+class,poco
+<end_tags>
+<begin_body>
+<p>Can someone define what exactly 'POCO' means? I am encountering the term more and more often, and I'm wondering if it is only about plain classes or it means something more?</p>
+
+<end_body>
+
+<end_duplicate_set>

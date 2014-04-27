@@ -63,6 +63,50 @@ def initialize_list():
     dup = [1066589, 46898]
     duplicate_sets.append(dup)
 
+    # java == vs ===
+    dup = [523643, 359494]
+    duplicate_sets.append(dup)
+
+    # python output buffering
+    dup = [230751, 107705]
+    duplicate_sets.append(dup)
+
+    dup = [1911109, 1778088]
+    duplicate_sets.append(dup)
+
+    dup = [2217758, 671118]
+    duplicate_sets.append(dup)
+
+    dup = [858181, 27509]
+    duplicate_sets.append(dup)
+
+    dup = [894860, 148901]
+    duplicate_sets.append(dup)
+
+    dup = [5569213, 5568998]
+    duplicate_sets.append(dup)
+
+    dup = [143847, 237104]
+    duplicate_sets.append(dup)
+
+    dup = [3950260, 3558656]
+    duplicate_sets.append(dup)
+
+    dup = [1402776, 492558]
+    duplicate_sets.append(dup)
+
+    dup = [944608, 629927]
+    duplicate_sets.append(dup)
+
+    dup = [3734189, 901545]
+    duplicate_sets.append(dup)
+
+    dup = [2921650, 1005539]
+    duplicate_sets.append(dup)
+    
+    dup = [3844893, 250001]
+    duplicate_sets.append(dup)
+
     return duplicate_sets
 
 download()
